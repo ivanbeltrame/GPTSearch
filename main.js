@@ -1,8 +1,9 @@
+// https://www.reddit.com/r/ChatGPT/comments/1im25pu/pro_tip_how_to_add_chatgpt_as_a_browser_search/
+
 const inputText = document.getElementById("inputText");
 const reasonCheck = document.getElementById("btn-check-reason");
 const webCheck = document.getElementById("btn-check-web");
 const temporaryCheck = document.getElementById("btn-check-temporary");
-
 
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Enter' && event.ctrlKey) {    
